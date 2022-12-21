@@ -1,5 +1,25 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 .App {
   text-align: center;
+}
+@import url(https://fonts.googleapis.com/css?family=BenchNine:700);
+.snip1535 {
+  background-color: #c47135;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'BenchNine', Arial, sans-serif;
+  font-size: 1em;
+  font-size: 22px;
+  line-height: 1em;
+  margin: 15px 40px;
+  outline: none;
+  padding: 12px 40px 10px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .App-logo {
@@ -36,3 +56,31 @@
     transform: rotate(360deg);
   }
 }
+
+.black-nav{
+  display: flex;
+  background-color: black;
+  width:100%;
+  color:white;
+  padding-left: 20px;
+   font-family: 'Y_Spotlight'
+}
+
+div{
+  box-sizing : border-box
+}
+.list{
+  padding-left: 20px;
+  text-align: left;
+  border-bottom: 1px solid grey;
+  font-family: 'Y_Spotlight'
+}
+
+.modal{
+  margin-top:20px;
+  padding:20px;
+  background: #eee;
+  text-align: left;
+  font-family: 'Y_Spotlight'
+}
+
